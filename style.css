@@ -1,0 +1,198 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color: #171717;
+}
+html {
+    font-family: "helvetica neue", sans-serif;
+}
+
+.nav {
+    text-align: center;
+    height: 90px;
+    line-height: 70px;
+    background-color: #1E1E1E;
+    position: relative;
+    z-index: 999;
+
+}
+
+
+.nav img{
+    height: 70px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+   /* margin-left: 250px;*/
+}
+
+
+
+.menu {
+    margin: 0;
+    padding-top: 10px;
+
+
+}
+
+.menu a {
+    clear: right;
+    text-decoration: none;
+    color: #fff;
+    margin: 0 20px;
+    line-height: 70px;
+    font-size: 24px;
+    font-weight: bold;
+text-align: center;
+ 
+
+}
+
+span {
+    color: yellow;
+}
+
+label {
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+    width: 26px;
+    float: right;
+    color: #fff;
+
+}
+#toggle {
+    display: none;
+}
+
+
+@media only screen and (max-width: 800px) {
+    label {
+        display: block;
+        cursor: pointer;
+
+
+    }
+    .menu {
+        text-align: center;
+        width: 100%;
+        display: none;
+    }
+    .menu a {
+        display: block;
+        border-bottom: 1px solid #EAEAEB;
+        margin: 0;
+        padding-top: 20px;
+        background: #1E1E1E;
+
+     
+    }
+    #toggle:checked + .menu {
+        display: block;
+    }
+    
+   .container {
+    background-color: #fff;
+
+   }
+
+
+
+
+
+
+}
+
+
+/* page content*/
+
+
+.container {
+    background: #1E1E1E;
+    width: 70%;
+    height: auto;
+    margin: 10px auto;
+    position: relative;
+    text-align: center;
+    padding-top: 10px;
+   
+
+}
+
+.container h1{
+    background-color: #929292;
+    height: 20px;
+    width: 270px;
+    border-radius: 50px;
+    padding: 15px;
+    color: #fff;
+    font-size: 24px;
+    margin: 0 auto;  
+    text-align: center;
+}
+.container h2{
+    background-color: #929292;
+    height: 20px;
+    width: 270px;
+    border-radius: 50px;
+    padding: 15px;
+    color: #fff;
+    font-size: 24px;
+    margin: 0 auto;  
+    text-align: center;
+}
+
+
+.container img {
+    height: 300px;
+    width: 300px;
+    margin-top: 20px;
+}
+
+.play-stores {
+    word-spacing: 10px;
+    margin-bottom: 30px;
+
+}
+
+
+.play-stores a img {
+    height: 50px;
+    width: 145px;
+
+}
+
+
+.menu a:hover {
+    color: yellow;
+
+}
+
+
+
+
+/* contact */
+
+.contact {
+    color: #fff;
+    font-size: 26px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+.more-contacts {
+    text-align: center;
+}
+
+.more-contacts a img {
+    height: 80px;
+    margin-top: 10px;
+}
+
+.more-contacts a img:hover {
+    color: #fff;
+    opacity: 0.4;
+}
